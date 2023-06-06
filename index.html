@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Animal Quiz to test your knowledge">
+    <meta name="keywords" content="animal quiz, quiz">
+    <title>Animal Quiz</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/logo.png" alt="logo" class="logo">
+
+        <div class="container-title">
+            <h1 class="title">Welcome to the jungle!</h1>
+            <h2 class="sub-title">Shall we test your knowledge of the animal world?</h2>
+        </div>
+    </header>
+
+    <div class="container-name">
+        <div class="form-element">
+            <input type="text" name="username" id="username" required />
+            <label class="floating-label" for="username">Enter your name</label>
+        </div>
+
+        <button onclick="showName()" type="submit" class="submit">Submit</button>
+    </div>
+
+    <div id="welcomeDiv">
+        <h2 id="ready" class="sub-title"></h2>
+        <button type="submit" onclick="startQuiz(), showQuestion()" class="start">play</button>
+    </div>
+
+    <div id="container">
+        <img src="" alt="" class="img-card">
+        <h2 id="question"></h2>
+        <div id="answer-buttons">
+        </div>
+        <div id="container-btn">
+            <button id="btn-next"></button>
+            <button id="btn-reset"></button>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
