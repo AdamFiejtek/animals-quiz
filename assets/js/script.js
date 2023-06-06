@@ -369,7 +369,7 @@ function displayScore() {
 
   constainerScore.classList.add("constainerScore")
 
-  constainerScore.style.background = `conic-gradient(${score >= 5 ? '#01AC1B' : '#ff0000'}, ${score >= 5 ? '#01AC1B' : '#ff0000'}, ${score * 36}deg, transparent, 0deg, #eeeeee)`;
+  //constainerScore.style.background = `conic-gradient(${score >= 5 ? '#01AC1B' : '#ff0000'}, ${score >= 5 ? '#01AC1B' : '#ff0000'}, ${score * 36}deg, transparent, 0deg, #eeeeee)`;
 
   constainerScore.appendChild(innerScore)
 
