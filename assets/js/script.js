@@ -381,7 +381,7 @@ function displayScore() {
   nextButton.style.display = "block";
   resetBtn.style.display = "block";
 
-  resetBtn.innerHTML = "reset";
+  resetBtn.innerHTML = "Reset";
 
   resetBtn.addEventListener("click", () => {
     location.reload(true)
