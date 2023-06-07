@@ -98,7 +98,7 @@ Font style and size were selected to ensure the best readability for the user.
 ### Animations and Transitions
 Buttons are getting bigger and highlighted when hovered, getting smaller when pressed down:
 
-![image](readme content files/Bigger button.PNG)
+![image](readme-content-files/Bigger-button.PNG)
 
 
 ## Design Elements
