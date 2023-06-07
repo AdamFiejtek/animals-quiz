@@ -98,9 +98,8 @@ Font style and size were selected to ensure the best readability for the user.
 ### Animations and Transitions
 Buttons are getting bigger and highlighted when hovered, getting smaller when pressed down:
 
-![image](https://user-images.githubusercontent.com/114284732/206765001-2d6430bd-c156-45a0-8a1d-4b0a03ab34ab.png)
-![image](https://user-images.githubusercontent.com/114284732/206765052-607a3a0c-f1f9-4d5e-9a3b-bd011b3bb611.png)
-![image](https://user-images.githubusercontent.com/114284732/206765243-73a33f85-3e2a-414f-b791-636525569097.png)
+![image]([https://user-images.githubusercontent.com/114284732/206765001-2d6430bd-c156-45a0-8a1d-4b0a03ab34ab.png](https://github.com/AdamFiejtek/animals-quiz/blob/5e543df27627b7fde597d7ba0465ed64e7429392/readme%20content%20files/Bigger%20button.PNG))
+
 
 ## Design Elements
 
