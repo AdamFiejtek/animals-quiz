@@ -48,16 +48,12 @@ Play this quiz to learn more about Animal Kingdom and English in a funny and eas
     + [Javascript Validation](#javascript-validation)
   * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
   * [Manual Testing](#manual-testing)
-    + [Defect Tracking](#defect-tracking)
-    + [Defects of Note](#defects-of-note)
-  * [Outstanding Defects](#outstanding-defects)
   * [Accessibility](#accessibility)
     + [Keyboard Navigation](#keyboard-navigation)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
   * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
 - [Deployment](#deployment)
-  * [Run Locally With GitPod](#run-locally-with-gitpod)
   * [Deploy to GitHub Pages](#deploy-to-github-pages)
   * [Credits](#credits)
   * [Content](#content)
@@ -73,7 +69,7 @@ Animal Quiz is a simple, but visually pleasant quiz for old and young alike!
 
 ## Project Goals
 - Main goal is to develop a simple quiz playable for all ages, which can be used to teach animal names in English
-- Appealing look as main target is young players
+- Appealing look as main target are young players
 
 
 ## Usability
@@ -111,76 +107,48 @@ Buttons are getting bigger and highlighted when hovered, getting smaller when pr
 The fully responsive design of each card (HTML and CSS built, no images to improve responsiveness):
 ![image](https://user-images.githubusercontent.com/114284732/206766312-3012e465-8ccf-440e-9b7f-d2eca159c70c.png)
 
-Custom modals instead of common alarms at the end of the deal:
-
-![image](https://user-images.githubusercontent.com/114284732/206765578-41ff10fb-92a6-4a79-8659-b30d3a2e207d.png)
-![image](https://user-images.githubusercontent.com/114284732/206765420-54ef6add-c682-4e87-9333-fbd3d112f72d.png)
-![image](https://user-images.githubusercontent.com/114284732/206765464-547e7e25-7cfb-45a7-a9bc-462ab2e73a05.png)
-![image](https://user-images.githubusercontent.com/114284732/206765500-bee3da79-b6a7-4454-b2d7-2c3f0fe657e5.png)
-
-## Wireframes
-![image](https://user-images.githubusercontent.com/114284732/206768461-fc50038b-8df2-4c5d-8867-13b22fe720ac.png)
 
 ### Features
 ## Implemented Features
 - Easy to navigate, simple one-page design with semantic construction - header, main section, and footer:
 
-    ![image](https://user-images.githubusercontent.com/114284732/206769803-27f99f5d-86e2-4650-ae18-4b0c2b926ea3.png)
+    ![image]()
     
-- Live score counter:
+-  Score counter:
 
-    ![image](https://user-images.githubusercontent.com/114284732/206769902-3b78b4f0-1cef-4afd-9d75-467477e67ea6.png)
+    ![image]()
     
-- Simple AI implemented for computer opponent so each game is exciting and satisfying:
+- Correct / Wrong answers shown, once choice is made, for learning purposes:
 
-    ![image](https://user-images.githubusercontent.com/114284732/206770764-4d6263a5-8ed6-4dac-9d28-04721e3f4521.png)
+    ![image]()
     
 - Dynamic game interface with hiding buttons:
 
-    ![image](https://user-images.githubusercontent.com/114284732/206771585-45800f1d-9782-45ca-b827-9c08e9076393.png)
-    ![image](https://user-images.githubusercontent.com/114284732/206771623-20fb5019-5f66-4e42-9f77-f64c5a29ce1d.png)
+    ![image]()
+ 
 
 - Animated buttons:
 
-    ![image](https://user-images.githubusercontent.com/114284732/206770118-091bf293-d822-4bb9-9dbc-4366758223f3.png)
+    ![image]()
 
-- Big points are stored locally in JSON file so the user doesn't lose progress after closing the game tab:
 
-    ![image](https://user-images.githubusercontent.com/114284732/206770945-c94f5939-c496-4cb5-8a96-d85ca2cc5af5.png)
-
-- Instructions on how to play are hidden in pop up modal:
-
-    ![image](https://user-images.githubusercontent.com/114284732/206770252-6630d7fb-4ebe-4d99-a4c3-ba1ff848903a.png)
-    ![image](https://user-images.githubusercontent.com/114284732/206770296-2adfafac-c1b4-4642-86b6-6aba35949c06.png)
-
-- Modals instead of alarms:
-
-    ![image](https://user-images.githubusercontent.com/114284732/206770419-55169279-2003-498b-a294-47113d758acd.png)
-    
-- Info about missing Java Script:
-    ![image](https://user-images.githubusercontent.com/114284732/206769622-02d53598-a57c-40e9-b185-a14c0ecdf297.png)
-
-- Custom 404 page:
-    ![image](https://user-images.githubusercontent.com/114284732/206769154-a6df8ff6-d40f-4813-9ae2-c5f67ae07c60.png)
 
 ## Future Features
 The plan for the next updates is to add virtual currency and implement a betting system for each deal.
 
 # Testing
-The site was tested in 4 browsers for Windows PC - Chrome, Firefox, Edge, and Opera. No issues were detected. Safari browser test passed - no issues detected. Mobile browsers tested - Chrome, Firefox, Samsung browser - no issues detected. The site is fully responsive for every size device.
+The site was tested in 4 browsers for Windows PC - Chrome, Firefox, Edge, and Opera. No issues were detected. Chrome browser test passed - no issues detected. Mobile browsers tested - Chrome, Firefox, Samsung browser - no issues detected. The site is fully responsive for every size device.
 My friends helped me a lot with game testing so I can assure you that the current version is free of bugs, responsive, and it's a lot of fun to play.
 
 ## Validation Testing
 ### CSS Validation
 No errors were found in the style.css file:
-![image](https://user-images.githubusercontent.com/114284732/206774422-d756cce1-387f-474b-bdf0-787850aef845.png)
+![image]()
 
 ### HTML Validation
 No errors in the index.html file:
 ![image](https://user-images.githubusercontent.com/114284732/206774814-4e8872a2-edce-4ae7-952a-26f9eb1be7bb.png)
 
-No errors in the 404.html file:
-![image](https://user-images.githubusercontent.com/114284732/206775026-74de4ed1-67b4-48c4-b19c-048db28444cf.png)
 
 ### Javascript Validation
 No errors in JS files (script.js and constants.js combined):
@@ -189,21 +157,6 @@ No errors in JS files (script.js and constants.js combined):
 ## Compatibility and Responsive Testing
 As the biggest market share in Ireland belongs to Chrome and Safari, I focused on these two browsers and didn't forget about others too.
 
-Samsung S22 Ultra:
-
-![image](https://user-images.githubusercontent.com/114284732/206803649-953aa452-07e0-4ecc-9f48-48f8253aa6c1.png)
-
-Samsung Galaxy A10:
-
-![image](https://user-images.githubusercontent.com/114284732/206803866-77c11274-3ecf-409b-89bc-6ead068a90fc.png)
-
-Redmi Note 11:
-
-![image](https://user-images.githubusercontent.com/114284732/206803987-6c5a6768-3608-486e-ae9d-c28ad51084da.png)
-
-iPhone 14 Pro Max:
-
-![image](https://user-images.githubusercontent.com/114284732/206804113-afb38900-0652-49f7-b407-84bbdc3e88c3.png)
 
 iPhone 8:
 
