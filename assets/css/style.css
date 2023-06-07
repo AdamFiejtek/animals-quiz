@@ -90,14 +90,6 @@ header {
     box-shadow: 2px 2px 11px 2px #a7a7a7;
 }
 
-#marquee {
-    text-shadow: 2px 2px #859ED6;
-    text-align: start;
-    margin: 10px auto 0;
-    color: #192A51;
-    font-size: larger;
-    padding-bottom: 4px;
-}
 
 #welcomeDiv {
     width: 500px;
