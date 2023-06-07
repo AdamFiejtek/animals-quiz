@@ -113,7 +113,7 @@ The fully responsive design of each card (HTML and CSS built, no images to impro
     
 -  Score counter:
 
-    ![image](https://github.com/AdamFiejtek/animals-quiz/blob/f54a982eb315a8b599edb372ca7556c3e959c034/readme-content/Score-percentage.PNG)
+    ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a9b51f1308c400236dd0c3549c5c2d82cc41a81b/readme-content/Score-percentage.PNG)
     
 - Correct / Wrong answers shown, once choice is made, for learning purposes:
 
