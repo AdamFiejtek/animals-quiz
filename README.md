@@ -142,6 +142,9 @@ No errors were found in the style.css file:
 Initial errors in the index.html file:
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a12762a45f658fa3f1a67379132b2d7d915451a0/readme-content/HTML-Validator-failure.PNG)
 
+### HTML Validation continued
+Errors fixed in the index.html file:
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/af7867af91680536a6a9d1af515a12f541cc5715/readme-content/HTM-Checker-No-Errors.PNG)
 
 ### Javascript Validation
 Issues in JS file:
