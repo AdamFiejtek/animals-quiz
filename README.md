@@ -179,7 +179,7 @@ Developer tools built in Chrome were used to further validate the site responsiv
 ## Accessibility
 Mobile version:
 
-![image](https://github.com/AdamFiejtek/animals-quiz/blob/c992fd8ae825eeead5729699f4181833c02811d1/readme-content/Android-test.jpeg)
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/2ed0b5f984e06c799e0a76d2164e2367ab9b0214/readme-content/Mobile-view.jpeg)
 
 Desktop version:
 
