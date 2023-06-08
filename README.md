@@ -154,7 +154,7 @@ iPhone 11:
 
 Android:
 
-![image](https://github.com/AdamFiejtek/animals-quiz/blob/60ca71db31045fa0da8c94c61fcd4298d390d13e/readme-content/Android-test.jpeg)
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/2ed0b5f984e06c799e0a76d2164e2367ab9b0214/readme-content/Mobile-view.jpeg)
 
 Chrome:
 
