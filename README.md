@@ -17,7 +17,7 @@ Adam Fiejtek
 
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/59955ebe87e72e165aede7ec713971458cfdd7b7/assets/images/logo.png)
 
-Play this quiz to learn more about Animal Kingdom and English in a funny and easy way!
+Play this quiz to learn more about Animal Kingdom and learn English in a funny and easy way!
 
 ## Table of Contents
 - [Animal Quiz](#animal-quiz)
@@ -58,16 +58,15 @@ Play this quiz to learn more about Animal Kingdom and English in a funny and eas
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 # UX
 ## Target Audience
-Animal Quiz is a simple, but visually pleasant quiz for old and young alike!
+Animal Quiz is a simple, but visually pleasant quiz for old and young alike, however younger audience might find it more appealing :)!
 
 ## Project Goals
-- Main goal is to develop a simple quiz playable for all ages, which can be used to teach animal names in English
-- Appealing look as main target are young players
+- Main goal is to develop a simple quiz playable for all ages, which can be used to teach some facts about animals to the youngest - in English.
+- Appealing look and verys simple interface as main target are kids
 
 
 ## Usability
@@ -102,7 +101,7 @@ Buttons are getting bigger and highlighted when hovered, getting smaller when pr
 ## Design Elements
 
 The fully responsive design of each card (HTML and CSS built, no images to improve responsiveness):
-![image]()
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/60ca71db31045fa0da8c94c61fcd4298d390d13e/readme-content/Responsiveness.PNG)
 
 
 ### Features
@@ -147,8 +146,8 @@ Errors fixed in the index.html file:
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/af7867af91680536a6a9d1af515a12f541cc5715/readme-content/HTM-Checker-No-Errors.PNG)
 
 ### Javascript Validation
-Issues in JS file:
-![image]()
+There were 2 issues found in JS file, but time constraints haven't allowed me to dive in to understand why was this flagged, however, it hasn't affected the code functionality in any way:
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/6426915b453546d663c94aa8709d585d6fd07f96/readme-content/JS-checker.PNG)
 
 ## Compatibility and Responsive Testing
 Web app was tested on some of the major browser available on the market, i.e. Chrome, Edge, Firefox, and also on mobile devices - Android and Iphone.
@@ -177,22 +176,19 @@ Edge:
 
 ## Manual Testing
 
-Section to complete
-![image]()
+Web app was first tested manually, due to simplicity of it's design, it wasn't a long process, all elements were found to be working as intended.
 
 
-
-### Defects of Note
-The most frustrating bug to find and remove was the situation when the computer was losing the game and didn't take another card (when he clearly could take one more to win).
-Also implementing the variable value of Ace (1 or 11) was a nightmare at the beginning and caused a lot of defects.
+### Defects
+.
 
 ## Outstanding Defects
-This is possible to break the game score if the user goes to local storage files and changes the values stored for something not expected. Need to implement function preventing manipulation with local storage file.
+.
 
 ## Accessibility
 Mobile version:
 
-![image](https://github.com/AdamFiejtek/animals-quiz/blob/60ca71db31045fa0da8c94c61fcd4298d390d13e/readme-content/Responsiveness.PNG)
+![image](ttps://github.com/AdamFiejtek/animals-quiz/blob/60ca71db31045fa0da8c94c61fcd4298d390d13e/readme-content/Android-test.jpeg)
 
 Desktop version:
 
@@ -220,13 +216,13 @@ List out the tools used:
 
 ## Deploy to GitHub Pages
 
-The site was deployed to GitHub pages:
+In order to deploy the website with GitHub pages, please use steps as follows:
 
-1. Go to the GitHub Animal Quiz repository then open settings:
+1. Go to the GitHub Animal Quiz repository then open settings
     
-2. Select pages:
+2. Select pages
     
-3. Choose a source to deploy from a branch, then select the main branch and save:
+3. Choose a source to deploy from a branch, then select the main branch and save
 
 4. Final view - page successfully deployed
 
@@ -242,8 +238,7 @@ The site was deployed to GitHub pages:
 ## Media
 
 - https://fontawesome.com/ - icons
-- https://fontjoy.com/ - font pairing
-- https://coolors.co/ - colors combination
+
 
 ## Acknowledgments
 
@@ -253,5 +248,4 @@ Also, I would like to thank all my friends for live testing the game!
 
 - https://validator.w3.org/ - HTML validator
 - https://jigsaw.w3.org/ - CSS validator
-- https://jshint.com/ - JS validator
-- https://web.dev - performance testing
+- https://codebeautify.org/jsvalidate - JS validator
