@@ -106,7 +106,7 @@ Buttons are getting bigger and are highlighted when hovered:
 
     ![image](https://github.com/AdamFiejtek/animals-quiz/blob/763a4eee29937851fa8450890d4927c68a415273/readme-content/Start-page.PNG)
     
--  Score counter:
+-  Interactive score counter, that display a numerical and graph percentage to the user:
 
     ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a9b51f1308c400236dd0c3549c5c2d82cc41a81b/readme-content/Score-percentage.PNG)
     
