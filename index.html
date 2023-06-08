@@ -7,35 +7,34 @@
     <meta name="description" content="Animal Quiz to test your knowledge">
     <meta name="keywords" content="animal quiz, quiz">
     <title>Animal Quiz</title>
-<!-- Linked stylesheets-->
+    <!-- Linked stylesheets -->
     <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <!-- Logo-->
         <img src="assets/images/logo.png" alt="logo" class="logo">
-<!-- Title div -->
+
         <div class="container-title">
             <h1 class="title">Welcome to the jungle!</h1>
             <h2 class="sub-title">Shall we test your knowledge of the animal world?</h2>
         </div>
     </header>
-<!-- Div to get the input fro the user-->
+
     <div class="container-name">
         <div class="form-element">
-            <input type="text" name="username" id="username" required>
+            <input type="text" name="username" id="username" required />
             <label class="floating-label" for="username">Enter your name</label>
         </div>
 
         <button onclick="showName()" type="submit" class="submit">Submit</button>
     </div>
-<!-- Div containing welcome message to the user, and start of the quiz-->
+
     <div id="welcomeDiv">
         <h2 id="ready" class="sub-title"></h2>
-        <button type="submit" onclick="startQuiz(), showQuestion()" class="start">Play</button>
+        <button type="submit" onclick="startQuiz(), showQuestion()" class="start">play</button>
     </div>
-<!-- Main div containig picture, questions, answers and buttons-->
+
     <div id="container">
         <img src="" alt="" class="img-card">
         <h2 id="question"></h2>
@@ -46,7 +45,7 @@
             <button id="btn-reset"></button>
         </div>
     </div>
-<!-- Linked JS script-->
+
     <script src="assets/js/script.js"></script>
 </body>
 
