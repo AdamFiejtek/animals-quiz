@@ -1,5 +1,7 @@
 # Animal Quiz
 
+Portfolio Project 2
+
 ![image](assets/images/jungle.jpg)
 
 # Repository
@@ -8,7 +10,6 @@ https://github.com/AdamFiejtek/animals-quiz
 # Live Website
 https://adamfiejtek.github.io/animals-quiz/
 
-Portfolio Project 2
 
 # Author
 Adam Fiejtek
