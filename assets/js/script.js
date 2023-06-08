@@ -283,7 +283,6 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("btn-next");
 const resetBtn = document.getElementById("btn-reset");
 const btnStart = document.querySelector(".start");
-const marqueeParagraph = document.getElementById("marquee");
 let container = document.getElementById("container");
 
 // method to display the player's name and greeting
