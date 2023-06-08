@@ -1,3 +1,4 @@
+// declaration of an array with constants to hold animal data and boolean true / false for answer verification
 const questions = [
   {
     questionTitle: "What is the name of this animal?",
@@ -268,7 +269,7 @@ const questions = [
     ]
   },
 ];
-
+// declaration of other variables 
 let containerName = document.querySelector(".container-name");
 let containerTitle = document.querySelector(".container-title");
 let title = document.querySelector(".title");
@@ -285,7 +286,7 @@ const btnStart = document.querySelector(".start");
 const marqueeParagraph = document.getElementById("marquee");
 let container = document.getElementById("container");
 
-
+// method to display the player's name and greeting
 function showName() {
   containerName.style.display = "none";
   containerTitle.style.display = "none";
@@ -296,10 +297,10 @@ function showName() {
 
   ready.innerHTML = "Hi, " + "<strong>" + nameInput.value + "</strong>" + ". Are you ready for test your knowledge about the animal world?"
 }
-
+// score counter
 let currentQuestionIndex = 0;
 let score = 0;
-
+// method to start the quiz
 function startQuiz() {
   welcomeDiv.style.display = "none";
   containerTitle.style.display = "none";
@@ -308,7 +309,7 @@ function startQuiz() {
   score = 0;
   nextButton.innerHTML = "Next &#62&#62";
 }
-
+// method to validate selected answer
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
@@ -331,7 +332,7 @@ function selectAnswer(e) {
   nextButton.style.display = "block";
   resetBtn.style.display = "none";
 }
-
+// method to siplay next question, or score, if no more questions left
 function handleNextButton() {
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
@@ -341,7 +342,7 @@ function handleNextButton() {
     displayScore();
   }
 }
-
+// score display
 function displayScore() {
   resetState();
   containerTitle.style.display = "flex";
@@ -360,7 +361,7 @@ function displayScore() {
   const innerScore = document.createElement("div");
   innerScore.classList.add("innerScore");
   innerScore.innerHTML = `${score * 10}%`;
-
+// displaying colors based on score, green / red
   if (score >= 5) {
     innerScore.classList.add("score-color-win");
   } else {
@@ -389,7 +390,7 @@ function displayScore() {
     location.reload(true)
   })
 }
-
+// event listener for button when clicked
 nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < questions.length) {
     handleNextButton();
@@ -400,7 +401,7 @@ nextButton.addEventListener("click", () => {
     resetBtn.style.display = "none";
   }
 });
-
+// method to display questions and answers
 function showQuestion() {
   resetState();
 
