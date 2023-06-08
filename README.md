@@ -36,13 +36,13 @@ Play this quiz to learn more about Animal Kingdom and learn English in a funny a
     + [Colors](#Colors)
     + [Fonts](#Fonts)
     + [Animations and Transitions](#animations-and-transitions)
-  * [Design Elements](#design-elements)
   * [Implemented Features](#implemented-features)
   * [Future Features](#future-features)
 - [Testing](#testing)
   * [Validation Testing](#validation-testing)
     + [CSS Validation](#css-validation)
-    + [HTML Validation](#html-validation)
+    + [HTML Validation](#initial-html-validation)
+    + [HTML Validation](#continued-html-validation)
     + [Javascript Validation](#javascript-validation)
   * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
   * [Manual Testing](#manual-testing)
@@ -52,7 +52,7 @@ Play this quiz to learn more about Animal Kingdom and learn English in a funny a
   * [Languages](#languages)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries-used)
 - [Deployment](#deployment)
-  * [Deploy to GitHub Pages](#deploy-to-github-pages)
+  * [Deploy to GitHub Pages](#deployment-to-github-pages)
   * [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
@@ -82,37 +82,32 @@ Animal Quiz is a simple, but visually pleasant quiz for old and young alike, how
 - Simplicity in design and execution
 
 ## Design Choices
+
 ### Colors
 
-Contrasting theme idea - wooden table in a warm and sunny room.
-
-![image]()
+White or warm colors and green scenery were used, to create a 'tropical forest' theme - for a sense of adventure for the youngest ones.
 
 ### Fonts
 
-Font style and size were selected to ensure the best readability for the user.
+Font styles and size were chosen to ensure the best readability for the user, and to be visually appealing for young players ( i.e. 'Cabin Sketch' font).
 
 ### Animations and Transitions
-Buttons are getting bigger and highlighted when hovered, getting smaller when pressed down:
+
+Buttons are getting bigger and are highlighted when hovered:
 
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a3040084fbd525a7e3f9839ce9226936a2a4b472/readme-content/Bigger-button.PNG)
 
 
-## Design Elements
-
-The fully responsive design of each card (HTML and CSS built, no images to improve responsiveness):
-![image](https://github.com/AdamFiejtek/animals-quiz/blob/60ca71db31045fa0da8c94c61fcd4298d390d13e/readme-content/Responsiveness.PNG)
-
-
 ### Features
 ## Implemented Features
-- Easy to navigate, simple one-page design:
+- Simple navigation, easy one-page design:
 
     ![image](https://github.com/AdamFiejtek/animals-quiz/blob/763a4eee29937851fa8450890d4927c68a415273/readme-content/Start-page.PNG)
     
 -  Score counter:
 
     ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a9b51f1308c400236dd0c3549c5c2d82cc41a81b/readme-content/Score-percentage.PNG)
+    
     
 - Correct / Wrong answers shown, once choice is made, for learning purposes:
 
@@ -126,18 +121,16 @@ The fully responsive design of each card (HTML and CSS built, no images to impro
 
 
 ## Future Features
-The plan for the next updates is to add virtual currency and implement a betting system for each deal.
+More questions / different themes / different difficulty levels to be implemented. Beside questions, other games, like puzzles, etc.
 
 # Testing
-The site was tested in 4 browsers for Windows PC - Chrome, Firefox, Edge, and Opera. No issues were detected. Chrome browser test passed - no issues detected. Mobile browsers tested - Chrome, Firefox, Samsung browser - no issues detected. The site is fully responsive for every size device.
-My friends helped me a lot with game testing so I can assure you that the current version is free of bugs, responsive, and it's a lot of fun to play.
 
 ## Validation Testing
 ### CSS Validation
 No errors were found in the style.css file:
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a12762a45f658fa3f1a67379132b2d7d915451a0/readme-content/CSS-validator-pass.PNG)
 
-### HTML Validation
+### Initial HTML Validation 
 Initial errors in the index.html file:
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a12762a45f658fa3f1a67379132b2d7d915451a0/readme-content/HTML-Validator-failure.PNG)
 
@@ -150,8 +143,8 @@ There were 2 issues found in JS file, but time constraints haven't allowed me to
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/6426915b453546d663c94aa8709d585d6fd07f96/readme-content/JS-checker.PNG)
 
 ## Compatibility and Responsive Testing
-Web app was tested on some of the major browser available on the market, i.e. Chrome, Edge, Firefox, and also on mobile devices - Android and Iphone.
-
+The website was tested in 3 browsers for Windows PC - Chrome, Firefox and Edge. No issues found. Chrome browser test passed - no issues detected.
+Tested on Andoroid and iPhone too - no issues detected. The site is responsive for every size device.
 
 iPhone 11:
 
@@ -177,13 +170,9 @@ Edge:
 ## Manual Testing
 
 Web app was first tested manually, due to simplicity of it's design, it wasn't a long process, all elements were found to be working as intended.
+Developer tools built in Chrome were used to further validate the site responsiveness.
 
-
-### Defects
-.
-
-## Outstanding Defects
-.
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/dddcf823856eed79e5ae5791c784cd36c9f6c384/readme-content/Responsiveness.PNG)
 
 ## Accessibility
 Mobile version:
@@ -206,15 +195,14 @@ The accessibility score for mobile devices is 97 points due to the warning for c
 
 ## Frameworks, Libraries Used
 List out the tools used:
-- Font Awesome
-- GitPod
-- GitHub
 - Google fonts
+- GitHub
+- GitPod
+
 
 # Deployment
 
-
-## Deploy to GitHub Pages
+## Deployment to GitHub Pages
 
 In order to deploy the website with GitHub pages, please use steps as follows:
 
