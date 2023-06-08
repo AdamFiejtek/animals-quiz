@@ -108,7 +108,7 @@ Buttons are getting bigger and are highlighted when hovered:
     
 -  Interactive score counter, that display a numerical and graph percentage to the user:
 
-    ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a9b51f1308c400236dd0c3549c5c2d82cc41a81b/readme-content/Score-percentage.PNG)
+    ![image](https://github.com/AdamFiejtek/animals-quiz/blob/81d836209cdaf8f1997c24af6673bc27944e97bd/readme-content/Score-percentage.PNG)
     
     
 - Correct / Wrong answers shown, once choice is made, for learning purposes:
