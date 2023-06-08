@@ -349,7 +349,7 @@ function displayScore() {
 
   const answerButtons = document.getElementById("answer-buttons");
 
-  title.innerHTML = nameInput.value + ", Congratulations! You finished the quiz! "
+  title.innerHTML = nameInput.value + ", Congratulations! You have finished the quiz! "
   subTitle.style.display = "none";
 
   const imgCard = document.querySelector(".img-card");
@@ -369,7 +369,7 @@ function displayScore() {
   }
 
   constainerScore.classList.add("constainerScore")
-
+// method to show the score on the circle - snippet from www.stackoverflow.com
   constainerScore.style.background = `conic-gradient(${score >= 5 ? '#01AC1B' : '#ff0000'}, ${score >= 5 ? '#01AC1B' : '#ff0000'}, ${score * 36}deg, transparent, 0deg, #eeeeee)`;
 
   constainerScore.appendChild(innerScore)
@@ -384,7 +384,7 @@ function displayScore() {
   nextButton.style.display = "block";
   resetBtn.style.display = "block";
 
-  resetBtn.innerHTML = "reset";
+  resetBtn.innerHTML = "Reset";
 
   resetBtn.addEventListener("click", () => {
     location.reload(true)
