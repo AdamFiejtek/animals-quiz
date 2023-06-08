@@ -145,8 +145,8 @@ There were 2 issues found in JS file, but time constraints haven't allowed me to
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/6426915b453546d663c94aa8709d585d6fd07f96/readme-content/JS-checker.PNG)
 
 ## Compatibility and Responsive Testing
-The website was tested in 3 browsers for Windows PC - Chrome, Firefox and Edge. No issues found. Chrome browser test passed - no issues detected.
-Tested on Andoroid and iPhone too - no issues detected. The site is responsive for every size device.
+The website was tested in 3 browsers for Windows PC - Chrome, Firefox and Edge. No issues found.
+Tested on Andoroid and iPhone too - no issues detected. The site is responsive for every size of the device.
 
 iPhone 11:
 
