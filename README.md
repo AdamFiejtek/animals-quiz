@@ -27,7 +27,7 @@ Play this quiz to learn more about Animal Kingdom and learn English in a funny a
 - [Author](#author)
 - [Project Overview](#project-overview)
   * [Table of Contents](#table-of-contents)
-- [UX](#ux)
+- [User Experience](#user-experience)
   * [Target Audience](#target-audience)
   * [Project Goals](#project-goals)
   * [Usability](#usability)
@@ -62,7 +62,7 @@ Play this quiz to learn more about Animal Kingdom and learn English in a funny a
 
 
 
-# UX
+# User Experience
 ## Target Audience
 Animal Quiz is a simple, but visually pleasant quiz for old and young alike, however younger audience might find it more appealing :)!
 
