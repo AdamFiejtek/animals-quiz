@@ -57,7 +57,7 @@ Play this quiz to learn more about Animal Kingdom and learn English in a funny a
   * [Credits](#credits)
   * [Content](#content)
   * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -184,8 +184,6 @@ Desktop version:
 
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/a5b25231fc4a09aa0f8546ba53e3f3093d67f082/readme-content/Desktop-version.PNG)
 
-The accessibility score for mobile devices is 97 points due to the warning for color contrast, however, I've tested the game on multiple devices and the color contrast is ok in my opinion (my testers (and friends :)) agree with me). For the desktop, it's 100. Aria labels and titles are used in this project.
-
 
 
 # Technologies Used
@@ -217,24 +215,29 @@ In order to deploy the website with GitHub pages, please use steps as follows:
 
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/6d13f65ca2840d26f9f665fd3b28a2f94936297e/readme-content/GitHub%20Deployment.PNG)
 
+
 ## Credits
-- https://learn.codeinstitute.net/ - Love Maths project and other lessons
-- https://stackoverflow.com/ - code inspirations
-- https://www.w3schools.com/ - code inspirations
 
-
+- https://www.w3schools.com/ - inspirations and knowlegde source
+- https://stackoverflow.com/ - helpful tips and knowlegde source
+- https://learn.codeinstitute.net/ - inspirations from my colleagues projects, and tutor's advices
 
 ## Media
 
-- https://fontawesome.com/ - icons
+All pictures are icons were used from below sites, with free licence:
+- https://www.freepik.com
+- https://cdn.britannica.com
+- https://www.thoughtco.com
+- https://share.america.gov
+- https://nationalgeographic.com
+- https://a-z-animals.com
 
-
-## Acknowledgments
-
-Big thanks to Krzychu
-Also, I would like to thank all my friends for live testing the game!
-
-
+Code validators:
 - https://validator.w3.org/ - HTML validator
 - https://jigsaw.w3.org/ - CSS validator
 - https://codebeautify.org/jsvalidate - JS validator
+
+
+
+
+
