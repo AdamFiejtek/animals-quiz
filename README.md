@@ -177,6 +177,11 @@ Developer tools built in Chrome were used to further validate the site responsiv
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/dddcf823856eed79e5ae5791c784cd36c9f6c384/readme-content/Responsiveness.PNG)
 
 ## Accessibility
+
+Test made by LightHouse Chrome browser plugin:
+
+![image](https://github.com/AdamFiejtek/animals-quiz/blob/983666031f63e811c2416a598442d05c4b7172d2/readme-content/LightHouseAccessibilityTest.jpg)
+
 Mobile version:
 
 ![image](https://github.com/AdamFiejtek/animals-quiz/blob/2ed0b5f984e06c799e0a76d2164e2367ab9b0214/readme-content/Mobile-view.jpeg)
