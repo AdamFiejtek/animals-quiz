@@ -202,7 +202,7 @@ Desktop version:
 List out the tools used:
 - Google fonts
 - GitHub
-- GitPod
+- Codeanywhare
 
 
 # Deployment
